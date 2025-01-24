@@ -24,6 +24,7 @@ const slideShoppingsCasesMobile = new Swiper(".swiper-mobile-sites", {
 
 const slideShoppingsCases = new Swiper(".swiper-desktop-sites", {
 	loop: true,
+	slidesPerView: 1,
 	autoplay: {
 		delay: 5000,
 	},
