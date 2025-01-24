@@ -1,0 +1,30 @@
+{
+	"name": "uwex-site",
+	"version": "1.0.0",
+	"description": "Projeto com Gulp para compilar JS e SCSS",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.26.0",
+		"@babel/plugin-transform-modules-commonjs": "^7.25.9",
+		"@babel/plugin-transform-runtime": "^7.25.9",
+		"@babel/preset-env": "^7.26.0",
+		"@babel/runtime": "^7.26.0",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-order": "^1.2.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-uglify": "^3.0.2",
+		"lenis": "^1.1.14",
+		"merge-stream": "^2.0.0",
+		"sass": "^1.80.5"
+	},
+	"dependencies": {
+		"@studio-freight/lenis": "^1.0.42",
+		"gsap": "^3.12.5"
+	}
+}
