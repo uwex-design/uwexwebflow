@@ -1,0 +1,57 @@
+/*text animation*/
+[text-split] {
+	opacity: 0;
+}
+html.w-editor [text-split] {
+	opacity: 1;
+}
+
+/* Prefixo específico do Safari */
+[text-split] {
+	-webkit-opacity: 0;
+}
+html.w-editor [text-split] {
+	-webkit-opacity: 1;
+}
+
+.word {
+	overflow: hidden;
+	padding-bottom: 0;
+	line-height: 100%;
+	margin-bottom: -0.1em;
+	transform-origin: bottom;
+}
+
+/*###############BREAKPOINTS ADICIONAIS#############*/
+@media only screen and (min-width: 1500px) and (max-width: 1810px) {
+	.text-equipe {
+		padding-left: 30px;
+	}
+}
+
+@media screen and (max-width: 1140px) and (min-width: 768px) {
+	.desc-beneficios {
+		font-size: 12.5px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1025px) {
+	.title-design-section {
+		max-width: 600px;
+		font-size: 50px;
+		line-height: 56px;
+	}
+}
+
+/*LEADSTER*/
+.nld-chatbot .nld-avatar {
+	bottom: 24px !important;
+	margin-bottom: 0 !important;
+}
+
+@media only screen and (max-device-width: 720px) {
+	.nld-chatbot .nld-avatar {
+		bottom: 16px !important;
+		margin-bottom: 0 !important;
+	}
+}
