@@ -19,12 +19,14 @@ var carrosselIcones = new Swiper(".carrossel-icons", {
 const slideShoppingsCasesMobile = new Swiper(".swiper-mobile-sites", {
 	loop: true,
 	slidesPerView: 1,
+	spaceBetween: 0,
 	allowTouchMove: false,
 });
 
 const slideShoppingsCases = new Swiper(".swiper-desktop-sites", {
 	loop: true,
 	slidesPerView: 1,
+	spaceBetween: 0,
 	autoplay: {
 		delay: 5000,
 	},
